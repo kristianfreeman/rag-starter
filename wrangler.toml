@@ -1,5 +1,5 @@
-name = "rag-example"
-main = "src/index.js"
+name = "rag-starter"
+main = "src/index.tsx"
 compatibility_date = "2023-10-02"
 
 [ai]
@@ -7,4 +7,4 @@ binding = "AI"
 
 [[vectorize]]
 binding = "VECTORIZE_INDEX"
-index_name = "vector-db"
+index_name = "rag-starter-vectorize"
