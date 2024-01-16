@@ -10,7 +10,8 @@
     "wrangler": "^3.0.0"
   },
   "dependencies": {
+    "@langchain/cloudflare": "^0.0.1",
     "hono": "^3.11.12",
-    "langchain": "^0.0.157"
+    "langchain": "^0.1.3"
   }
 }

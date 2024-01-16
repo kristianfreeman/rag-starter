@@ -1,5 +1,4 @@
-import { CloudflareVectorizeStore } from "langchain/vectorstores/cloudflare_vectorize"
-import { CloudflareWorkersAIEmbeddings } from "langchain/embeddings/cloudflare_workersai"
+import { CloudflareVectorizeStore, CloudflareWorkersAIEmbeddings } from "@langchain/cloudflare"
 import { Hono } from "hono";
 import { HTTPException } from 'hono/http-exception'
 import { OpenAI } from "langchain/llms/openai"
